@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Alguns elementos vem pre setados uma largura minima por alguns navegadores.
+  Seleciona todos os elementos do HTML, com largura 0.
+*/
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark
+}
+
+.rdp-root {
+  --rdp-accent-color: #BEF264; /* Change the accent color to indigo. */
+  --rdp-accent-background-color: #828282; /* Change the accent background color. */
+  --rdp-range_start-color: #1A2E05; /* Change the range start color to #1A2E05. */
+  --rdp-range_end-color: #1A2E05; /* Change the range end color to #1A2E05. */  
+  /* Add more CSS variables here. */
+}
